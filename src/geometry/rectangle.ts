@@ -7,14 +7,14 @@ export const rectangle = {
    * @param length
    * @param width
    */
-  area(length: number, width: number):number {
+  area(length: number, width: number): number {
     if (length < 0) throw new Error('Length must be greater than 0!');
     if (width < 0) throw new Error('Width must be greater than 0!');
     if (typeof length !== 'number') throw new Error('Length must be a number!');
     if (typeof width !== 'number') throw new Error('Width must be a number!');
     return length * width;
   },
-  perimeter(length: number, width: number):number {
+  perimeter(length: number, width: number): number {
     if (length < 0) throw new Error('Length must be greater than 0!');
     if (width < 0) throw new Error('Width must be greater than 0!');
     if (typeof length !== 'number') throw new Error('Length must be a number!');

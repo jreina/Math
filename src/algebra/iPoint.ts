@@ -1,6 +1,4 @@
-export interface iPoint
-{
-    x : number;
-    y : number;
+export interface iPoint {
+  x: number;
+  y: number;
 }
-
