@@ -1,6 +1,7 @@
 import { circle } from './circle';
 import { rectangle } from './rectangle';
 import { triangle } from './triangle';
+import { vector } from './vector';
 
 export const geometry = {
   /**
@@ -8,5 +9,6 @@ export const geometry = {
    */
   circle,
   rectangle,
-  triangle
+  triangle,
+  vector
 };
