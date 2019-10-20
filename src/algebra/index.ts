@@ -5,6 +5,12 @@ export const algebra = {
   add(a: number, b: number): number {
     return a + b;
   },
+  multiply(a: number, b: number): number {
+    return a * b;
+  },
+  divide(a: number, b: number): number {
+    return a / b;
+  },
   /**
    * function for finding the slope of two points.
    */
