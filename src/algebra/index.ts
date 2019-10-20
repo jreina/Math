@@ -10,7 +10,7 @@ export const algebra = {
   },
   divide(a: number, b: number): number {
     return a / b;
-  }
+  },
   /**
    * function for finding the slope of two points.
    */
