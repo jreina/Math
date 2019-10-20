@@ -20,17 +20,4 @@ export const exp = (x: number,
 
     return sum
 
-    /*for k = 0 : NMax
-    sum = sum + term;
-    if abs(term) < abs(sum) * tau % approximate stopping condition
-        break
-    end
-    term = term*x/(k+1); % update power and factorial as we go
-end
-
-rtn = sum;
-
-end
-
-    */
-    }
+}
