@@ -1,4 +1,4 @@
-import { iPoint } from './iPoint';
+import { Point } from './Point';
 export const algebra = {
   subtract(a: number, b: number): number {
     return a - b;
@@ -19,16 +19,16 @@ export const algebra = {
     const m = (pointY2 - pointY1) / (pointX2 - pointX1);
     return m;
   },
-  midpoint(point1: iPoint, point2: iPoint): iPoint {
+  midpoint(point1: Point, point2: Point): Point {
     const medX = (point1.x + point2.x) / 2;
     const medY = (point1.y + point2.y) / 2;
-    let midPoint: iPoint = {
+    let midPoint: Point = {
       x: medX,
       y: medY
     };
     return midPoint;
   },
-  distance(point1: iPoint, point2: iPoint): number {
+  distance(point1: Point, point2: Point): number {
     const dist = Math.sqrt(
       (point1.x - point2.x) ** 2 + (point1.y - point2.y) ** 2
     );
