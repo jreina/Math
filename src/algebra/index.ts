@@ -1,4 +1,4 @@
-import { Point } from './Point';
+import { Point } from '../types/Point';
 export const algebra = {
   subtract(a: number, b: number): number {
     return a - b;
